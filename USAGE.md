@@ -1,3 +1,20 @@
+# Usage (quick)
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the GUI:
+
+```bash
+python testbench_generator.py
+```
+
+3. Walk through the steps: import DUT, configure interface and transactions, adjust agents and environment, then click **Generate Testbench**.
+
+4. Review the generated project under your chosen output directory; see `examples/sample_project/` for a minimal sample layout.
 # Usage
 
 ## Run
