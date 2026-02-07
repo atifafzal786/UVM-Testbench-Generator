@@ -25,6 +25,9 @@ from utils.theme import apply_theme
 from utils.state import StateManager
 from utils.workflow import compute_module_statuses
 
+__all__ = ["main", "__version__"]
+__version__ = "0.1.1"
+
 
 class TestbenchEcosystemApp(tk.Tk):
     SECTION_WIDGETS: dict[str, type[tk.Widget]] = {
@@ -254,6 +257,10 @@ class TestbenchEcosystemApp(tk.Tk):
             self.footer.show_loader_for(module_key)
 
 
-if __name__ == "__main__":
+def main() -> None:
     app = TestbenchEcosystemApp()
     app.mainloop()
+
+
+if __name__ == "__main__":
+    main()
