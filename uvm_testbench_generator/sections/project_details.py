@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, filedialog, scrolledtext
-from utils.state import StateManager
-from utils.verilog_parser import extract_parameters, extract_signals, extract_module_info
+from ..utils.state import StateManager
+from ..utils.verilog_parser import extract_parameters, extract_signals, extract_module_info
 from tkinter import messagebox
 
 class ProjectDetailsForm(ttk.Frame):

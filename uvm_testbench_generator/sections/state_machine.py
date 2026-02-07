@@ -4,9 +4,9 @@ import json
 import tkinter as tk
 from tkinter import messagebox, ttk
 
-from utils.state import StateManager
-from utils.ui import CodePreview, ScrollableFrame, section_title
-from utils.workflow import Status, compute_module_statuses
+from ..utils.state import StateManager
+from ..utils.ui import CodePreview, ScrollableFrame, section_title
+from ..utils.workflow import Status, compute_module_statuses
 
 
 class StateMachineViewer(ttk.Frame):

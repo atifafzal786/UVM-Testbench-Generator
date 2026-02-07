@@ -2,9 +2,9 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import threading
 
-from utils.state import StateManager
-from utils.generator import generate_project
-from utils.workflow import compute_module_statuses, Status
+from ..utils.state import StateManager
+from ..utils.generator import generate_project
+from ..utils.workflow import compute_module_statuses, Status
 
 class DashboardPage(ttk.Frame):
     def __init__(self, parent):

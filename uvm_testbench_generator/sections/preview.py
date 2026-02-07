@@ -4,9 +4,9 @@ from pathlib import Path
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 
-from utils.generator import generate_files
-from utils.state import StateManager
-from utils.ui import CodeNotebook, ScrollableFrame, section_title
+from ..utils.generator import generate_files
+from ..utils.state import StateManager
+from ..utils.ui import CodeNotebook, ScrollableFrame, section_title
 
 
 class PreviewPage(ttk.Frame):

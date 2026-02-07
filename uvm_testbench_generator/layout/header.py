@@ -1,8 +1,8 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 
-from utils.paths import resource_path
-from utils.theme import Theme
+from ..utils.paths import resource_path
+from ..utils.theme import Theme
 
 class Header(tk.Frame):
     def __init__(self, parent):

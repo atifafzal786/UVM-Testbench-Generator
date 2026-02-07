@@ -5,9 +5,9 @@ import re
 import tkinter as tk
 from tkinter import messagebox, ttk
 
-from utils.generator import generate_files
-from utils.state import StateManager
-from utils.ui import CodePreview, ScrollableFrame, section_title
+from ..utils.generator import generate_files
+from ..utils.state import StateManager
+from ..utils.ui import CodePreview, ScrollableFrame, section_title
 
 
 class ScoreboardClassForm(ttk.Frame):

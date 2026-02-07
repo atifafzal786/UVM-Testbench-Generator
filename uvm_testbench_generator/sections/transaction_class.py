@@ -4,8 +4,8 @@ import re
 import tkinter as tk
 from tkinter import messagebox, ttk
 
-from utils.state import StateManager
-from utils.ui import CodePreview, ScrollableFrame, code_text, section_title
+from ..utils.state import StateManager
+from ..utils.ui import CodePreview, ScrollableFrame, code_text, section_title
 
 
 class TransactionClassForm(ttk.Frame):

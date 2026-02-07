@@ -3,8 +3,8 @@ from __future__ import annotations
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-from utils.state import StateManager
-from utils.ui import CodePreview, ScrollableFrame
+from ..utils.state import StateManager
+from ..utils.ui import CodePreview, ScrollableFrame
 
 
 class InterfaceDUTForm(ttk.Frame):

@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import tkinter as tk
 
-from utils.theme import Theme, DARK
-from utils.workflow import ModuleStatus, Status
+from ..utils.theme import Theme, DARK
+from ..utils.workflow import ModuleStatus, Status
 
 
 class Sidebar(tk.Frame):

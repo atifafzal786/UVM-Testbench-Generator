@@ -23,11 +23,11 @@ Repository = "https://github.com/atifafzal786/UVM-Testbench-Generator"
 Documentation = "https://github.com/atifafzal786/UVM-Testbench-Generator/tree/main"
 
 [project.scripts]
-tbgen = "testbench_generator:main"
+tbgen = "uvm_testbench_generator.app:main"
 
-[tool.setuptools]
-py-modules = ["testbench_generator"]
-packages = ["layout", "sections", "utils", "logo"]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["uvm_testbench_generator*"]
 
 [tool.setuptools.package-data]
-logo = ["*.png", "*.gif", "*.ico"]
+uvm_testbench_generator.logo = ["*.png", "*.gif", "*.ico"]

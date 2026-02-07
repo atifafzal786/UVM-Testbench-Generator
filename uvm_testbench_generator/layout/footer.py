@@ -6,10 +6,10 @@ from tkinter import ttk
 
 from PIL import Image, ImageSequence, ImageTk
 
-from utils.paths import resource_path
-from utils.state import StateManager
-from utils.theme import Theme
-from utils.workflow import Status, compute_module_statuses
+from ..utils.paths import resource_path
+from ..utils.state import StateManager
+from ..utils.theme import Theme
+from ..utils.workflow import Status, compute_module_statuses
 
 COPYRIGHT_SIGN = "\N{COPYRIGHT SIGN}"
 
