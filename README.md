@@ -8,7 +8,7 @@ This project is a desktop GUI that helps you build a multi-file UVM-style testbe
 
 ## Quick start
 
-1) Install Python (Windows) with Tkinter available.
+1) Install Python (3.9+) with Tkinter available.
 2) Install dependencies:
 
 ```bash
@@ -20,6 +20,14 @@ pip install -r requirements.txt
 ```bash
 python testbench_generator.py
 ```
+
+Badges
+
+- Build: [![CI](https://github.com/atifafzal786/UVM-Testbench-Generator/actions/workflows/python-ci.yml/badge.svg)](https://github.com/atifafzal786/UVM-Testbench-Generator/actions)
+
+Docs & support
+
+See `USAGE.md` and `USER_GUIDE.md` for full documentation and walkthroughs.
 
 ## Output structure (generated)
 
