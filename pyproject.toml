@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uvm-testbench-generator"
-version = "0.1.1"
+version = "0.1.2"
 description = "Tkinter-based UVM testbench generator that scaffolds SystemVerilog testbenches from a DUT."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -30,4 +30,4 @@ where = ["."]
 include = ["uvm_testbench_generator*"]
 
 [tool.setuptools.package-data]
-uvm_testbench_generator.logo = ["*.png", "*.gif", "*.ico"]
+uvm_testbench_generator = ["logo/*.png", "logo/*.gif", "logo/*.ico"]
